@@ -17,7 +17,7 @@
 /* insane customization starts here */
 :root {
 	/* top left corner text */
-	--corner-text: 'TARDISCord Insane V2.0.0';
+	--corner-text: 'TARDISCord V2.0.0 Codename "Insane"';
 
 	/* enhanced color of status indicators and window controls */
 	--online-indicator: #0475f6; /* brighter, vibrant green */
