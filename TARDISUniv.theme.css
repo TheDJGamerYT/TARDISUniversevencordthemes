@@ -1,0 +1,82 @@
+/**
+ * @name TARDISCord Insane
+ * @description A dark, rounded Discord theme with electrifying blue accents, enhanced animations, and dynamic effects for an immersive experience.
+ * @author TheDJHimself
+ * @version 2.0.0
+ * @invite 2UH5dYZck3
+ * @website https://github.com/refact0r/midnight-discord
+ * @source https://github.com/refact0r/midnight-discord/blob/master/midnight.theme.css
+ * @authorId 1050531216589332581
+ * @authorLink https://tardisuniverse.com
+ */
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
+
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+
+/* insane customization starts here */
+:root {
+	/* top left corner text */
+	--corner-text: 'TARDISCord Insane V2.0.0';
+
+	/* enhanced color of status indicators and window controls */
+	--online-indicator: #0475f6; /* brighter, vibrant green */
+	--dnd-indicator: #42bef7; /* intense red */
+	--idle-indicator: #00d39b; /* vivid yellow */
+	--streaming-indicator: #1000a4; /* glowing purple */
+
+	/* accent colors with added vibrance */
+	--accent-1: hsl(226, 100%, 75%); /* brighter links */
+	--accent-2: hsl(226, 80%, 60%); /* more noticeable unread/mention elements */
+	--accent-3: hsl(245, 60%, 55%); /* accent buttons with more pop */
+	--accent-4: hsl(226, 100%, 60%); /* hover accent with more contrast */
+	--accent-5: hsl(193, 70%, 55%); /* click accent with more intensity */
+	--mention: hsla(204, 96%, 27%, 0.6); /* brighter mention messages */
+	--mention-hover: hsla(198, 99%, 32%, 0.7); /* hover effect with stronger emphasis */
+
+	/* enhanced text colors for better readability */
+	--text-0: #ffffff; /* pure white for text on colored elements */
+	--text-1: var(--text-2); /* other normally white text */
+	--text-2: hsl(220, 30%, 80%); /* brighter headings */
+	--text-3: hsl(220, 20%, 70%); /* clearer normal text */
+	--text-4: hsl(220, 20%, 50%); /* more defined icons and channels */
+	--text-5: hsl(220, 20%, 35%); /* slightly brighter muted channels/chats and timestamps */
+
+	/* dynamic background and dark colors */
+	--bg-1: hsl(220, 20%, 25%); /* more defined dark buttons when clicked */
+	--bg-2: hsl(220, 20%, 20%); /* slightly lighter dark buttons */
+	--bg-3: hsl(220, 20%, 18%); /* more noticeable secondary elements */
+	--bg-4: hsl(220, 20%, 14%); /* deeper main background color */
+	--hover: hsla(230, 25%, 50%, 0.15); /* enhanced hover effect for channels and buttons */
+	--active: hsla(220, 25%, 50%, 0.3); /* stronger active effect for channels and buttons */
+	--message-hover: hsla(220, 0%, 0%, 0.15); /* messages hover with more visibility */
+
+	/* enhanced spacing and padding */
+	--spacing: 22px; /* slightly more spacious layout */
+
+	/* intense animations for a dynamic experience */
+	--list-item-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* smoother hover transition */
+	--unread-bar-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* smoother unread bar transition */
+	--moon-spin-transition: 1.5s ease;/* infinite moon icon spin */
+	--icon-spin-transition: 1.5s ease; /* infinite spin for round icons */
+
+	/* extreme corner roundness (border-radius) for a futuristic look */
+	--roundness-xl: 28px; /* extreme roundness for big panel outer corners */
+	--roundness-l: 24px; /* more rounded popout panels */
+	--roundness-m: 20px; /* smoother smaller panels, images, embeds */
+	--roundness-s: 16px; /* more rounded members, settings inputs */
+	--roundness-xs: 24px; /* more rounded channels, buttons */
+	--roundness-xxs: 12px; /* slightly rounded search bar and small elements */
+
+	/* direct messages moon icon */
+	/* change to block to show, none to hide */
+	--discord-icon: none; /* discord icon hidden */
+	--moon-icon: block; /* moon icon visible */
+	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/4/43/Doctor_Who_Logo_2023.svg'); /* same custom icon url */
+	--moon-icon-size: 100%;
+
+	/* filters for uncolorable elements refined to fit the insane theme */
+	--login-bg-filter: saturate(0.5) hue-rotate(-20deg) brightness(0.5); /* deeper login background artwork */
+	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.6); /* stronger explore icon filter */
+	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(1.0) brightness(1.3); /* more intense school icon filter */
+}
