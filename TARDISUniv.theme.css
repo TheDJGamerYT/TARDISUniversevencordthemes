@@ -1,5 +1,5 @@
 /**
- * @name TARDISCord Insane
+ * @name TARDISCord Insanity
  * @description A dark, rounded Discord theme with electrifying blue accents, enhanced animations, and dynamic effects for an immersive experience.
  * @author TheDJHimself
  * @version 2.0.0
@@ -16,11 +16,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;700&display=swap');
 @import url('https://tardisuniverse.com/insanitygihubshit/HorizontalServerList.css');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
 
 /* insane customization starts here */
 :root {
 	/* top left corner text */
-	--corner-text: 'TARDISCord V2.0.4 BETA codename "DJs hell"';
+	--corner-text: 'TARDISCord V2.0.4';
 
 	
 
@@ -56,8 +57,8 @@
 	/* intense animations for a dynamic experience */
 	--list-item-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* smoother hover transition */
 	--unread-bar-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* smoother unread bar transition */
-	--moon-spin-transition: 2s ease;/* infinite moon icon spin */
-	--icon-spin-transition: 2s ease; /* infinite spin for round icons */
+	--moon-spin-transition: 2s ease-in-out;/* infinite moon icon spin */
+	--icon-spin-transition: 2s ease-in-out; /* infinite spin for round icons */
 
 	/* extreme corner roundness (border-radius) for a futuristic look */
 	--roundness-xl: 30px; /* extreme roundness for big panel outer corners */
@@ -71,7 +72,7 @@
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon hidden */
 	--moon-icon: block; /* moon icon visible */
-	--moon-icon-url: url('https://1000logos.net/wp-content/uploads/2019/04/Doctor-Who-Logo.png'); /* same custom icon url */
+	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/4/43/Doctor_Who_Logo_2023.svg'); /* same custom icon url */
 	--moon-icon-size: 100%;
 
 	/* filters for uncolorable elements refined to fit the insane theme */
@@ -116,7 +117,9 @@
 	--rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 
 
-	/*  Moving the   */
+	/*  Changing wallpaper and transparancy   */
+
+	--dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
 }
 
 /* trying to move the avatar/ mute and defan area thingy*/
