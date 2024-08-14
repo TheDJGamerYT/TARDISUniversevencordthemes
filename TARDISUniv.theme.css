@@ -20,13 +20,9 @@
 /* insane customization starts here */
 :root {
 	/* top left corner text */
-	--corner-text: 'TARDISCord V2.0.3 codename "DJs hell (the sequal)"';
+	--corner-text: 'TARDISCord V2.0.4 BETA codename "DJs hell"';
 
-	/* enhanced color of status indicators and window controls */
-	--online-indicator: #2804f6; /* brighter, vibrant green */
-	--dnd-indicator: #ca4a00; /* intense red */
-	--idle-indicator: #00e1ff; /* vivid yellow */
-	--streaming-indicator: #4b004b; /* glowing purple */
+	
 
 	/* accent colors with added vibrance */
 	--accent-1: hsl(226, 100%, 75%); /* brighter links */
