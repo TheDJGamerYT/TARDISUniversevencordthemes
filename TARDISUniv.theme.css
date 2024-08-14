@@ -57,8 +57,8 @@
 	/* intense animations for a dynamic experience */
 	--list-item-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* smoother hover transition */
 	--unread-bar-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* smoother unread bar transition */
-	--moon-spin-transition: 1.5s ease;/* infinite moon icon spin */
-	--icon-spin-transition: 1.5s ease; /* infinite spin for round icons */
+	--moon-spin-transition: 2s ease;/* infinite moon icon spin */
+	--icon-spin-transition: 2s ease; /* infinite spin for round icons */
 
 	/* extreme corner roundness (border-radius) for a futuristic look */
 	--roundness-xl: 28px; /* extreme roundness for big panel outer corners */
@@ -79,4 +79,8 @@
 	--login-bg-filter: saturate(0.5) hue-rotate(-20deg) brightness(0.5); /* deeper login background artwork */
 	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.6); /* stronger explore icon filter */
 	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(1.0) brightness(1.3); /* more intense school icon filter */
+/*change position of server list to top (hopefully)*/
+	--HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+	--HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+	--HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 }
