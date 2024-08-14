@@ -8,6 +8,7 @@
  * @source https://github.com/refact0r/midnight-discord/blob/master/midnight.theme.css
  * @authorId 1050531216589332581
  * @authorLink https://tardisuniverse.com
+ * @updateUrl https://raw.githubusercontent.com/TheDJGamerYT/tardisuniversevencordplugina1/main/TARDISUniv.theme.css
  */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
@@ -16,12 +17,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;700&display=swap');
 @import url('https://tardisuniverse.com/insanitygihubshit/HorizontalServerList.css');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css');
 
 /* insane customization starts here */
 :root {
 	/* top left corner text */
-	--corner-text: 'TARDISCord V2.0.4';
+	--corner-text: 'TARDISCord V2.0.5 BETA';
 
 	
 
