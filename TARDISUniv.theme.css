@@ -71,7 +71,7 @@
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon hidden */
 	--moon-icon: block; /* moon icon visible */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/4/43/Doctor_Who_Logo_2023.svg'); /* same custom icon url */
+	--moon-icon-url: url('https://1000logos.net/wp-content/uploads/2019/04/Doctor-Who-Logo.png'); /* same custom icon url */
 	--moon-icon-size: 100%;
 
 	/* filters for uncolorable elements refined to fit the insane theme */
@@ -95,9 +95,9 @@
 
 	/*    get ready to see my brain melt from the length of this code    */
 	/*    (nvm i decided to do a third import)  also adding radial status icons for no reason :)  */
-	--rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-	--rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-	--rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+	--rs-small-spacing: 5px; /* Gap between avatar and status for members list/dms | MUST end in px */
+	--rs-medium-spacing: 5px; /* Gap between avatar and status for User popout | MUST end in px */
+	--rs-large-spacing: 5px; /* Gap between avatar and status for User profiles | MUST end in px */
   
 	--rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
 	--rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
@@ -110,11 +110,18 @@
 	--rs-dnd-color: #00e1ff; /* Colour for dnd status */
 	--rs-offline-color: #636b75; /* Colour for offline status */
 	--rs-streaming-color: #643da7; /* Colour for streaming status */
-	--rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-	--rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+	--rs-invisible-color: #00ffb3; /* Colour for invisible status - Note: this will only show for your own invisibility */
+	--rs-phone-color: #175f0d; /* Colour of the ring and phone icon when a user is on their phone |  */
   
 	--rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+
+
+	/*  Moving the   */
 }
+
+/* trying to move the avatar/ mute and defan area thingy*/
+
+
 
 /* Apply DynaPuff to the corner text */
 .cornerText {
