@@ -15,10 +15,12 @@
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;700&display=swap');
 @import url('https://tardisuniverse.com/insanitygihubshit/HorizontalServerList.css');
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
 /* insane customization starts here */
 :root {
 	/* top left corner text */
-	--corner-text: 'TARDISCord V2.0.2.3 QF codename "DJs hell (the sequal)"';
+	--corner-text: 'TARDISCord V2.0.3 codename "DJs hell (the sequal)"';
 
 	/* enhanced color of status indicators and window controls */
 	--online-indicator: #2804f6; /* brighter, vibrant green */
@@ -96,11 +98,30 @@
 
 
 	/*    get ready to see my brain melt from the length of this code    */
-	/*    (nvm i decided to do a third import)    */
+	/*    (nvm i decided to do a third import)  also adding radial status icons for no reason :)  */
+	--rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+	--rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+	--rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  
+	--rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+	--rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+	--rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+  
+	--rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  
+	--rs-online-color: var(--online-indicator-); /* Colour for online status */
+	--rs-idle-color: var(--idle-indicator-); /* Colour for idle status */
+	--rs-dnd-color: var(--dnd-indicator-); /* Colour for dnd status */
+	--rs-offline-color: #636b75; /* Colour for offline status */
+	--rs-streaming-color: #643da7; /* Colour for streaming status */
+	--rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+	--rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  
+	--rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
 /* Apply DynaPuff to the corner text */
-.corner-1eYt5S, .cornerText {
+.cornerText {
     font-family: 'DynaPuff', sans-serif !important;
     font-size: 16px; /* Adjust the size if needed */
     font-weight: 500; /* You can change this to 400, 700, etc., based on preference */
