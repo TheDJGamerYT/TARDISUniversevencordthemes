@@ -109,9 +109,9 @@
   
 	--rs-avatar-shape: 50%; /* 50% for round - 0% for square */
   
-	--rs-online-color: var(--online-indicator-); /* Colour for online status */
-	--rs-idle-color: var(--idle-indicator-); /* Colour for idle status */
-	--rs-dnd-color: var(--dnd-indicator-); /* Colour for dnd status */
+	--rs-online-color: #2804f6; /* Colour for online status */
+	--rs-idle-color: #ca4a00; /* Colour for idle status */
+	--rs-dnd-color: #00e1ff; /* Colour for dnd status */
 	--rs-offline-color: #636b75; /* Colour for offline status */
 	--rs-streaming-color: #643da7; /* Colour for streaming status */
 	--rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
