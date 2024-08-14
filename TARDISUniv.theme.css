@@ -17,13 +17,13 @@
 /* insane customization starts here */
 :root {
 	/* top left corner text */
-	--corner-text: 'TARDISCord V2.0.1 codename "blurpule"';
+	--corner-text: 'TARDISCord V2.0.2 codename "DJs hell"';
 
 	/* enhanced color of status indicators and window controls */
-	--online-indicator: #0475f6; /* brighter, vibrant green */
-	--dnd-indicator: #1994ce; /* intense red */
-	--idle-indicator: #00d39b; /* vivid yellow */
-	--streaming-indicator: #1000a4; /* glowing purple */
+	--online-indicator: #2804f6; /* brighter, vibrant green */
+	--dnd-indicator: #ca4a00; /* intense red */
+	--idle-indicator: #00e1ff; /* vivid yellow */
+	--streaming-indicator: #4b004b; /* glowing purple */
 
 	/* accent colors with added vibrance */
 	--accent-1: hsl(226, 100%, 75%); /* brighter links */
