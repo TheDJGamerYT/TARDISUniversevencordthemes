@@ -17,11 +17,11 @@
 /* insane customization starts here */
 :root {
 	/* top left corner text */
-	--corner-text: 'TARDISCord test V2.0.0 Codename "Insane"';
+	--corner-text: 'TARDISCord V2.0.1 codename "blurpule"';
 
 	/* enhanced color of status indicators and window controls */
 	--online-indicator: #0475f6; /* brighter, vibrant green */
-	--dnd-indicator: #42bef7; /* intense red */
+	--dnd-indicator: #1994ce; /* intense red */
 	--idle-indicator: #00d39b; /* vivid yellow */
 	--streaming-indicator: #1000a4; /* glowing purple */
 
