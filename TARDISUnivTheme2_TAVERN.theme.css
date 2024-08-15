@@ -1296,3 +1296,25 @@
     opacity: var(--FG-cards-status-opacity-active) !important;
     transition: var(--FG-transition);
 }
+
+
+
+/*  change up the discord logo  */
+
+:root {
+    --custom-logo-size: 30px;
+  }
+  
+  [aria-label="Home"] > div > svg {
+    width: var(--custom-logo-size) !important;
+    height: var(--custom-logo-size) !important;
+    background-image: url('https://cdn.discordapp.com/attachments/1218761812120440862/1273549921785741332/06c69aea477a127fa166a3de5a7355a0.webp?ex=66bf054a&is=66bdb3ca&hm=d33a18692abdd1c857e1975543a83abe95a3e7744dc03fa3eed296cc65e1f24e&') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    fill: transparent !important;
+  }
+  
+  [aria-label="Home"] > div > svg path {
+    display: none !important;
+  }
+  
