@@ -7,9 +7,11 @@
 
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
-/*SpotiCord Vars*/
+/*TavernCord Vars*/
 :root {
-    --sc-gradient-color: #F2A25C;
+    --sc-gradient-color: #F27405;
+    --cornertextvar: "Taverncord V1.0.0 By TheDJHimself";
+
 }
 
 /*Friends-Grid*/
@@ -93,7 +95,7 @@
 }
 
 .info_c5a741:after {
-    content: "Taverncord V1.0.0 By TheDJHimself";
+    content: var(--cornertextvar);
     top: 16px;
     color: var(--text-muted);
     position: relative;
@@ -112,7 +114,7 @@
 }
 
 .wordmarkWindows_a934d8:after {
-    content: "Taverncord V1.0.0 By TheDJHimself";
+    content: var(--cornertextvar);;
     color: var(--text-muted);
     font-size: 12px;
     padding-left: 10px;
