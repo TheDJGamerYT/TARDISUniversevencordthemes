@@ -374,12 +374,12 @@
 
 /*User Info*/
 .panels_a4d4d9 {
-    background-color: #181818;
+    background-color: #023b42;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     height: 90px;
     border-radius: 0px;
-    border-top: 1px solid #282828;
+    border-top: 1px solid #5c5c5c;
     z-index: 99;
     overflow: hidden scroll;
     padding-right: 5px;
@@ -423,7 +423,7 @@
 }
 
 .panels_a4d4d9:before {
-    content: "Spotify terminal version 1.0.0... No song playing";
+    content: var(--cornertextvar);
     font-size: 14px;
     text-align: center;
     color: #fff;
@@ -735,7 +735,7 @@
 
 /*fallback variables*/
 :root {
-    --FA-version: "v1.0.10 (SpotiCord Version)";
+    --FA-version: var(--cornertextvar);
 
     --FG-row: 1fr 1fr 1fr;
 
