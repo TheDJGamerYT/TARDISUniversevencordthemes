@@ -5,7 +5,6 @@
  * @description Light-weight Tavern and modern phone app like theme for Discord
 */
 
-@import url("https://slddev.github.io/SpotiCord/src/boot.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 /*SpotiCord Vars*/
@@ -15,7 +14,7 @@
 
 /*Friends-Grid*/
 :root {
-    --FA-version: "v1.0.10 (SpotiCord Version)";
+    --FA-version: "Taverncord V1.0.0 By TheDJHimself";
 
     --FG-row: 1fr 1fr 1fr;
 
@@ -66,14 +65,35 @@
 
     --user-accent-color: var(--FG-cards-banner-background);
     --theme-version: "0.5.9c ";
+
+
+
+
+
 }
+    /*  trying to remove the annoying quest pop up  */
+
+
+    /* Hide Quests Button */
+    #app-mount .questButton-2uFmsY, 
+    #app-mount .questSidebar-2yFTur, 
+    #app-mount .questEntry-2AqNuF, 
+    #app-mount .questIcon-1cDB8N {
+        display: none !important;
+    }
+    
+    /* Optional: Hide any quest notifications or popups */
+    #app-mount .questNotification-1shtGH, 
+    #app-mount .questPopup-1U6Odf {
+        display: none !important;
+    }
 
 [id^="SpotiCord"] .bd-addon-header .bd-version:before {
     content: "v" var(--theme-version);
 }
 
 .info_c5a741:after {
-    content: var(--FA-version);
+    content: var(--FA-version-);
     top: 16px;
     color: var(--text-muted);
     position: relative;
@@ -92,7 +112,7 @@
 }
 
 .wordmarkWindows_a934d8:after {
-    content: var(--FA-version);
+    content: var(--FA-version-);
     color: var(--text-muted);
     font-size: 12px;
     padding-left: 10px;
