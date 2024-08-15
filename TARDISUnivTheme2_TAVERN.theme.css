@@ -1,21 +1,18 @@
 /**
- * @name SpotiCord
- * @author Sappy#8123
- * @authorId 741262207391629343
+ * @name Taverncord
+ * @author TheDJHimself
  * @version AutoUpdating
- * @description Light-weight Spotify theme for Discord
- * @source https://github.com/Slddev/SpotiCord
- * @website https://sappy.eu.org
- * @donate https://buymeacoffee.com/slddev
+ * @description Light-weight Tavern and modern phone app like theme for Discord
 */
 
 @import url("https://slddev.github.io/SpotiCord/src/boot.css");
-/*@import url("https://crearts-community.github.io/Friends-Grid/clients/betterdiscord.css");*/
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://slddev.github.io/SpotiCord/src/main.css");
+@import url("https://slddev.github.io/SpotiCord/src/fixes.css");
 
 /*SpotiCord Vars*/
 :root {
-    --sc-gradient-color: #80F2F2;
+    --sc-gradient-color: #1455D9;
 }
 
 /*Friends-Grid*/
@@ -70,6 +67,39 @@
     --FG-transition: all 0.4s ease;
 
     --user-accent-color: var(--FG-cards-banner-background);
+    --theme-version: "0.5.9c ";
+}
+
+[id^="SpotiCord"] .bd-addon-header .bd-version:before {
+    content: "v" var(--theme-version);
+}
+
+.info_c5a741:after {
+    content: "Taverncord Version 1.0.0";
+    top: 16px;
+    color: var(--text-muted);
+    position: relative;
+}
+
+[id^="SpotiCord"] .bd-addon-header .bd-version {
+    font-size: 0;
+}
+
+[id^="SpotiCord"] .bd-addon-header .bd-version:before {
+    font-size: 14px;
+}
+
+.bd-switch input:checked + .bd-switch-body {
+    --switch-color: var(--background-accent);
+}
+
+.wordmarkWindows_a934d8:after {
+    content: "Taverncord V1.0.0 By TheDJHimself";
+    color: var(--text-muted);
+    font-size: 12px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 4px;
 }
 
 .theme-dark {
