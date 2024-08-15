@@ -7,8 +7,6 @@
 
 @import url("https://slddev.github.io/SpotiCord/src/boot.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://slddev.github.io/SpotiCord/src/main.css");
-@import url("https://slddev.github.io/SpotiCord/src/fixes.css");
 
 /*SpotiCord Vars*/
 :root {
@@ -174,3 +172,65 @@
 
     --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
+
+
+.theme-dark {
+    --text-normal: #f4f4f4;
+    --background-primary: #121212;
+    --background-secondary: #181818;
+    --background-secondary-alt: #282828;
+    --background-tertiary: #000;
+    --background-floating: #282828;
+    --background-accent: #1ed760;
+    --channeltextarea-background: #242424;
+    --input-background: #242424;
+    --interactive-normal: #b3b3b3;
+    --interactive-hover: #fff;
+    --deprecated-quickswitcher-input-background: #313131;
+    --background-modifier-selected: hsla(0, 0%, 100%, 0.1);
+    --background-modifier-hover: hsla(0, 0%, 100%, 0.2);
+    --background-modifier-active: hsla(0, 0%, 100%, 0.2);
+    --modal-background: #121212;
+    --modal-footer-background: #121212;
+    --home-background: #121212;
+    --channel-icon: #b3b3b3;
+}
+
+/*Ditch Light Theme*/
+.theme-light {
+    --header-primary: #fff;
+    --header-secondary: #f4f4f4;
+    --text-normal: #f4f4f4;
+    --background-primary: #121212;
+    --background-secondary: #181818;
+    --background-secondary-alt: #282828;
+    --background-tertiary: #000;
+    --background-floating: #282828;
+    --background-accent: #1ed760;
+    --channeltextarea-background: #242424;
+    --input-background: #242424;
+    --deprecated-quickswitcher-input-background: #313131;
+    --interactive-normal: #b3b3b3;
+    --interactive-hover: #fff;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-modifier-selected: hsla(0, 0%, 100%, 0.1);
+    --background-modifier-hover: hsla(0, 0%, 100%, 0.2);
+    --background-modifier-active: hsla(0, 0%, 100%, 0.2);
+    --modal-background: #121212;
+    --modal-footer-background: #121212;
+    --home-background: #121212;
+    --channel-icon: #b3b3b3;
+}
+
+
+
+/* a ton of imports ive gotta do thru so i can edit this in full*/
+
+@import url("https://slddev.github.io/SpotiCord/src/Home/index.css");
+@import url("https://slddev.github.io/SpotiCord/src/Plugins/index.css");
+@import url("https://slddev.github.io/SpotiCord/src/Popouts/index.css");
+@import url("https://slddev.github.io/SpotiCord/src/Serverlist/index.css");
+@import url("https://slddev.github.io/SpotiCord/src/UI/index.css");
+@import url("https://slddev.github.io/SpotiCord/src/ProfileCards/index.css");
+@import url("https://slddev.github.io/SpotiCord/src/ProfileCards/source.css");
