@@ -73,7 +73,7 @@
 }
 
 .info_c5a741:after {
-    content: "Taverncord Version 1.0.0";
+    content: var(--FA-version);
     top: 16px;
     color: var(--text-muted);
     position: relative;
@@ -92,7 +92,7 @@
 }
 
 .wordmarkWindows_a934d8:after {
-    content: "Taverncord V1.0.0 By TheDJHimself";
+    content: var(--FA-version);
     color: var(--text-muted);
     font-size: 12px;
     padding-left: 10px;
@@ -181,7 +181,7 @@
     --background-secondary-alt: #282828;
     --background-tertiary: #000;
     --background-floating: #282828;
-    --background-accent: #1ed760;
+    --background-accent: #01b8be;
     --channeltextarea-background: #242424;
     --input-background: #242424;
     --interactive-normal: #b3b3b3;
@@ -401,7 +401,7 @@
 }
 
 .panels_a4d4d9:before {
-    content: "No Song Playing...";
+    content: "Spotify terminal version 1.0.0... No song playing";
     font-size: 14px;
     text-align: center;
     color: #fff;
