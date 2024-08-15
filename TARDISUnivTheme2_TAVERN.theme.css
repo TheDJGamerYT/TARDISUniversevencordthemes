@@ -93,7 +93,7 @@
 }
 
 .info_c5a741:after {
-    content: var(--FA-version-);
+    content: "Taverncord V1.0.0 By TheDJHimself";
     top: 16px;
     color: var(--text-muted);
     position: relative;
@@ -112,7 +112,7 @@
 }
 
 .wordmarkWindows_a934d8:after {
-    content: var(--FA-version-);
+    content: "Taverncord V1.0.0 By TheDJHimself";
     color: var(--text-muted);
     font-size: 12px;
     padding-left: 10px;
