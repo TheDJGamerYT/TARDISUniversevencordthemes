@@ -10,8 +10,8 @@
 /*TavernCord Vars*/
 :root {
     --sc-gradient-color: #D93D04;
-    --cornertextvar: "Taverncord V1.0.1 By TheDJHimself";
-    --versionid1: "1.0.1";
+    --cornertextvar: "Taverncord V1.0.2 By TheDJHimself";
+    --versionid1: "1.0.2";
 
 }
 
@@ -424,7 +424,7 @@
 }
 
 .panels_a4d4d9:before {
-    content: "Taverncord -" var(--versionid1);
+    content: "Taverncord - " var(--versionid1);
     font-size: 14px;
     text-align: center;
     color: #fff;
